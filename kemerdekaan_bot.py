@@ -4,7 +4,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFacePipeline
 from transformers import pipeline
 
-CHROMA_PATH = r"D:\KARIR\PT NoLimit Indonesia\RAG\chroma"
+CHROMA_PATH = r"chroma"
 
 # Prompt template
 PROMPT_TEMPLATE = """
@@ -97,4 +97,5 @@ if st.button("Cari Jawaban") and user_query:
 
     st.subheader("Sumber Dokumen untuk Chunk")
     for i, src in enumerate(sources, 1):
+
         st.write(f"{i}. {src}")
