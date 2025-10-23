@@ -1,6 +1,6 @@
 # Kemerdekaan-Bot
 ### Introduction
-Perkenalkan saya Kevyn Alifian Hernanda Wibowo izin memperkenalkan "📖 Kemerdekaan Bot" yang dibuat untuk memenuhi test data science dari NoLimit. 📖 Kemerdekaan Bot adalah Chatbot berbasis RAG tentang Sejarah Proklamasi Kemerdekaan Indonesia, yang dibangun menggunakan google/embeddinggemma-300m, google/gemma-3-1b-it, dan ChromaDB.
+📖 Kemerdekaan Bot adalah Chatbot berbasis RAG tentang Sejarah Proklamasi Kemerdekaan Indonesia, yang dibangun menggunakan google/embeddinggemma-300m, google/gemma-3-1b-it, dan ChromaDB.
 
 ### Dasar pemilihan model
 1. google/embeddinggemma-300m
