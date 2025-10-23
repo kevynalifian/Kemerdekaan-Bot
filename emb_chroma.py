@@ -36,7 +36,7 @@ def split_text_semantic(documents: list[Document]):
     """
     text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=300,         
-        chunk_overlap=50,       
+        chunk_overlap=70,       
         length_function=len,
         separators=["\n\n", "\n", "."],  
         add_start_index=True
